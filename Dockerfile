@@ -65,7 +65,7 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/InsaneRobot
-RUN git clone https://github.com/TheTeamInsane/InsaneManagement /root/InsaneRobot
+RUN git clone https://github.com/TheTeamInsane/InsaneRobot /root/InsaneRobot
 WORKDIR /root/InsaneRobot
 
 #Copy config file to /root/InsaneRobot/InsaneRobot
