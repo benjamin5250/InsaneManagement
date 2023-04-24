@@ -24,6 +24,12 @@ class Config(object):
 
     OWNER_ID = 1356469075  # User id of your telegram account (Must be integer)
 
+    QUOTE_API_URI = ""
+
+    ARQ_API_KEY = "" #get it form @ARQRobot
+
+    ARQ_API_URL = "" # dont change
+    
     # Optional fields
     BL_CHATS = []  # List of groups that you want blacklisted.
     DRAGONS = []  # User id of sudo users
