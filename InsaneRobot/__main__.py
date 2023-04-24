@@ -719,18 +719,18 @@ def main():
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
             dispatcher.bot.send_photo(
-                chat_id=f"@{SUPPORT_CHAT}",
+                chat_id=f"@InsaneSupport365",
                 photo=START_IMG,
                 caption=f"""
 ㅤㅤ
-**Gʀᴏᴜᴘ Sᴇᴄᴜʀɪᴛʏ** ɪs ᴡᴏʀᴋɪɴɢ ғɪɴᴇ ᴀs ᴡɪɴᴇ...🍷💫
+**Insane Management** ɪs ᴡᴏʀᴋɪɴɢ ғɪɴᴇ ᴀs ᴡɪɴᴇ...🍷💫
  ╭⸻⸻⸻╮
  ◆ **Pʏᴛʜᴏɴ** ⊱ `{y()}`
  ◆ **Lɪʙʀᴀʀʏ** ⊱ `{telever}`
  ◆ **Tᴇʟᴇᴛʜᴏɴ** ⊱ `{tlhver}`
  ◆ **Pʏʀᴏɢʀᴀᴍ** ⊱ `{pyrover}`
  ╰⸻⸻⸻╯
-|| Pᴏᴡᴇʀᴇᴅ ʙʏ [˹Rᴏᴄᴋs ᴏғғɪᴄɪᴀʟ˼](https://t.me/rocks_official) ||""",
+|| Pᴏᴡᴇʀᴇᴅ ʙʏ [˹Team Insane˼](https://t.me/TheTeamInsane) ||""",
                 parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
