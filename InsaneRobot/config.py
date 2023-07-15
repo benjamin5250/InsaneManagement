@@ -22,7 +22,7 @@ class Config(object):
 
     TIME_API_KEY = ""  # Get this value from https://timezonedb.com/api
 
-    OWNER_ID = 1356469075  # User id of your telegram account (Must be integer)
+    OWNER_ID = 5122206134  # User id of your telegram account (Must be integer)
 
     QUOTE_API_URI = ""
 
